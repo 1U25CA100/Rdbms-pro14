@@ -1,4 +1,4 @@
-USE CollegeDB;
+pnUSE CollegeDB;
 
 DROP PROCEDURE IF EXISTS CalculateSum;
 
@@ -21,7 +21,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Sum = ' || total);
 END;
 /
-    
+
 
 DELIMITER ;
 
